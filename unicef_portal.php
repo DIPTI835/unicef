@@ -5,6 +5,7 @@ if (!isset($_SESSION["unicef_user"])) {
     header("Location: unicef_login.php");
     exit();
 }
+    
 ?>
 
 <html>
@@ -17,6 +18,7 @@ if (!isset($_SESSION["unicef_user"])) {
 <a href="unicef_logout.php">Logout</a>
 </body>
 </html>
+
 
 <h2>Ask Any Question (Parent Chatbot)</h2>
 <form method="post" action="verify.php">
