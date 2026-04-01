@@ -6,6 +6,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     $dbuser = "root";
     $dbpass = "";
     $db = "vaccine_system";
+    
 
     $con = mysqli_connect($server, $dbuser, $dbpass, $db);
     if (!$con) {
