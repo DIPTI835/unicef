@@ -1,8 +1,12 @@
+//connection
 <?php
 $server = "localhost";
 $dbuser = "root";
 $dbpass = "";
 $dbname = "hospital";
+
+
+
 
 $conn = new mysqli($server, $dbuser, $dbpass, $dbname);
 
