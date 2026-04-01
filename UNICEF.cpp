@@ -8,6 +8,8 @@
 using namespace std;
 
 class Unicef {
+
+
     int age;
     int arrived_or_not;
     string vname;
