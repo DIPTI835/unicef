@@ -7,6 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import sys
 import json
 
+
+
 WHO_SITES = [
     "https://www.who.int/news",
     "https://www.who.int/emergencies/disease-outbreak-news",
