@@ -5,6 +5,7 @@ if(!isset($_SESSION['company_name'])){
     exit();
 }
 
+
 // Redirect directly to manufacture.cgi
 header("Location: /cgi-bin/manufacture.cgi");
 exit();
