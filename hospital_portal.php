@@ -4,6 +4,7 @@ if (!isset($_SESSION["hospital_user"])) {
     header("Location: hospital_login.php");
     exit();
 }
+    
 ?>
 
 <html>
